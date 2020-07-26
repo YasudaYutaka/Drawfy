@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openDialog() {
-        AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+        AlertDialog.Builder dialog = new AlertDialog.Builder(this, R.style.MyDialogTheme);
 
         dialog.setTitle("Resultado")
                 .setMessage(resultadoRep)
